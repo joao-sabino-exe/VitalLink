@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>VitalLink</Text>
+      <Text style={styles.Text}>VitalLink</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -16,5 +16,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#92000b',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  Text: {
+    color: 'white'
   },
 });
